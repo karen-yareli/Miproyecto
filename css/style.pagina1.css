@@ -1,0 +1,45 @@
+
+table{
+    width: 200;
+   
+}
+caption{
+    color: rgb(255, 109, 4);
+    font-family:cursive;
+    font-size: 25px;
+    line-height: 70px;
+    
+}
+table, th, td{
+    border: 1px solid rgb(255, 109, 4);
+    border-collapse:unset;
+    padding: 5px;
+}
+ td{
+     text-align: center;
+ }
+th{
+    background-color: orangered;
+    color:aliceblue;
+}
+tr:nth-child(even){
+    background-color: rgb(225, 255, 0);
+}
+tr:nth-child(odd){
+    background-color: rgb(255, 106, 0);
+}
+ ol{
+     list-style: none;
+     counter-reset: contador;
+ }
+ ol li{
+     counter-increment: contador;
+ }
+ ol li::before{
+     content: counter(contador)"-.";
+     color: gold;
+ }
+ ol li::after{
+    content:"**";
+    color: gold;
+}

@@ -1,6 +1,19 @@
 ul{
     list-style-type: none;
-    background-color: yellow;
+    background-color:rgb(255, 247, 0);
     margin: 0;
-    padding: 0;
+    padding: 111000;
+    overflow: hidden;
+}
+li a{
+    float: left;
+    display: block;
+    color:rgb(0, 0, 0);
+    text-align:center;
+    padding: 15px;
+    text-decoration: none;
+}
+li a:hover{
+background-color: rgb(255, 128, 0);
+
 }
