@@ -1,19 +1,116 @@
+html{
+    Background-color: #ccd8e2;
+    Min-height: 110px;
+    Font-family: "helvética neve";
+    Background: url(), 
+    Linear-gradient(to left, #ff5100, #ffffff);
+    }
+    
 ul{
     list-style-type: none;
-    background-color:rgb(255, 247, 0);
+    background-color:rgb(255, 147, 6);
     margin: 0;
-    padding: 111000;
+    padding: 11000;
     overflow: hidden;
+    border: 5px double;
+    
 }
 li a{
     float: left;
     display: block;
-    color:rgb(0, 0, 0);
+    color:rgb(41, 0, 248);
     text-align:center;
     padding: 15px;
     text-decoration: none;
+    font-size:larger;
+    text-align: center;
+  
+   
 }
 li a:hover{
-background-color: rgb(255, 128, 0);
+background-color: rgb(238, 255, 0);
+
+
 
 }
+
+.pizza img{
+    
+    width: 30%;
+    height: 120px;
+    border-radius: 30px;
+    
+}
+.pizza{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+p{
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+
+
+   
+
+table, th, td{
+    border: 1px solid rgb(255, 109, 4);
+    border-collapse:unset;
+    padding: 0px;
+    border-radius: 50px;
+}
+ td{
+     text-align: center;
+     border-radius: 50px;
+     font-weight: 110px;
+     
+
+
+ }
+th{
+    background-color: orangered;
+    color:aliceblue;
+    border-radius: 50px;
+
+}
+tr:nth-child(even){
+    background-color: rgb(144, 149, 167);
+}
+tr:nth-child(odd){
+    background-color: rgb(255, 106, 0);
+    border-radius: 50px;
+
+}
+ ol{
+     list-style: none;
+     counter-reset: contador;
+ }
+ ol li{
+     counter-increment: contador;
+ }
+ ol li::before{
+     content: counter(contador)"-.";
+     color: gold;
+ }
+ ol li::after{
+    content:"**";
+    color: gold;
+}
+h5{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+    font-size: larger;
+}
+table{
+    width: 85%;
+    margin-top: 0%;
+    margin-left: 6.5%;
+}
+
+
