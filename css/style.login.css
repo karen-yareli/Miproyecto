@@ -6,7 +6,13 @@ html{
     Linear-gradient(to left, #fffb00, #ff5e00);
     }
     
-   
+    body {
+        height: 400px;
+        background-image: url("https://carontestudio.com/img/caronte-web-estudio-logo.png");
+      
+        background-repeat:no-repeat;
+        background-position: center center;
+      }
     .contenedor{
     
     margin: 150px auto;
@@ -19,7 +25,7 @@ html{
     .contenedor h2{
         margin: 10 10 60px;
         padding: 10px;
-        font-size: 50px;
+        font-size: 0px;
         color: rgb(255, 230, 2);
         text-align: center;
         }
@@ -64,5 +70,5 @@ html{
                 button:hover{
                     background-color:yellow;
                 }
-      
+        
     
