@@ -43,3 +43,30 @@ tr:nth-child(odd){
     content:"**";
     color: gold;
 }
+ul{
+    list-style-type: none;
+    background-color:rgb(255, 145, 0);
+    margin: 0;
+    padding: 11000;
+    overflow: hidden;
+    border: 5px double;
+    
+}
+li a{
+    float: left;
+    display: block;
+    color:rgb(41, 0, 248);
+    text-align:center;
+    padding: 15px;
+    text-decoration: none;
+    font-size:larger;
+    text-align: center;
+  
+   
+}
+li a:hover{
+background-color: rgb(238, 255, 0);
+
+
+
+}
