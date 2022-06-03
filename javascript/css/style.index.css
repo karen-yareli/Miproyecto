@@ -1,0 +1,25 @@
+
+body{
+   
+    background-image: linear-gradient(
+        to bottom right,
+        #f6a192 0%,
+        #f6b092 20%,
+        #f6c492 40%,
+        #f6cf92 60%,
+        #f6d992 80%
+    );
+    background-size: 200% 200%;
+
+    animation: movimiento 10s linear infinite 
+    alternate;
+}
+
+@keyframes movimiento {
+    from {
+        background-position: 0 0;
+    }
+    to{
+        background-position: 100% 100%;
+    }
+}

@@ -5,23 +5,98 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PRIMERA PAGINA</title>
+    <link href="css/style.pagina3.css" rel="stylesheet"/>
+
 </head>
 
     <body>
         <br />
-        <h1>Que opinas de las pizzas</h1>
-        
-       <img src="images/pizza.jpg" 
-       alt="grafico de pezzeria"
+        <h1>Que opinas de las pizzas</h2>
+        <br />
+        <br />
+       <img src="images/logo en centro.jpg" alt="grafico de pezzeria"
         width="500px"
-        height="150px"
-        title="pizzeria"
-        
-        
-       />
+        height="250px"
+        title="pizzeria"/>
+       <br />
+       <br />
+       <br />
+       <br />
 
-       <p>La mejor pizza</p>
-       <a href="portain.html">pagina principall</a> 
+        <h2>Nuestras areas de espera</h2>
+        <br />
+        <br />
+
+        <img src="images/asientos.jpg"  alt="grafico de pezzeria"
+        width="400px"
+        height="250px"
+        title="pizzeria"/>
+
+        <p>Todos los dias desinfectamos nuestras mesas y sillas a la hora en la que nuestros 
+            clientes desocupan su lugar, Esto con el objetivo de brindarle la mejor seguridad a 
+        usted y a su familia </p>
+        <br /><br />
+
+        <h2>Nuestras areas de espera</h2>
+        <img src="images/area familiar.jpg"  alt="grafico de pezzeria"
+        width="400px"
+        height="250px"
+        title="pizzeria"/>
+
+       <br /><br />
+       <p>Tenemos un excelente servicio al cliente y nuestras areas estan diseñadas para que sus pequeños se diviertan 
+           jugando con niños de aproximadamente su misma edad mientras esperan a que su deliciosa pizza este lista
+       </p>
+       <br /><br />
+       <h2>Areas de juegos</h2>
+       <img src="images/area de juegos.jpg"  alt="grafico de pezzeria"
+        width="400px"
+        height="250px"
+        title="pizzeria"/>
+        <br />
+        <img src="images/juegos para los niños.jpg"  alt="grafico de pezzeria"
+        width="400px"
+        height="250px"
+        title="pizzeria"/>
+        <br /><br />
+
+        <p>Aqui pueden ver nuestras areas de juegos ¡vengan y dejen que sus hijos disfruten de nuestras areas! 
+        </p>
+        <br /><br />
+            <h1 id="tituloH1">Te gustaria decirnos que tal estuvo la esperiencia de tu hijo</h1>
+            <br/>
+                 <br/>
+            <p>Tu opinion es impotante para nosotros</p>
+            <br/>
+            <br/>
+            <form id="formulario">
+                ¿Le gustaron las areas de juegos?: <input type="text" id="name" placeholder="Escribe tu comentario"/>
+                <br/>
+                <br/>
+                ¿Le gustaria volver a nuestro local?: <input type="text" id="name" placeholder="Escribe tu comentario"/>
+                <br/>
+                <br/>
+                ¿Como los trato el personal del area de juegos?: <input type="text" id="name" placeholder="Escribe tu comentario"/>
+                <br/>
+                <br/>
+                ¿Que calificacion le dan a nestro local?: <input type="number" id="calificacion" name="calificacion" required="true"/>
+                <br/>
+                <br/>
+                <input type="submit" value="Enviar"/>
+                </form>
+                <script>
+                    const form1 = document.getElementById("formulario")
+                    form1.addEventListener("focus", (evento)=>{
+                     evento.target.style.background="yellow"
+                    }, true)
+                    form1.addEventListener("blur", (evento)=>{
+                    evento.target.style.background="white"
+                    }, true)
+                </script>
+                 <br/>
+                 <br/>
+
+            <a href="portain.html">pagina principall</a> 
 
 
 
