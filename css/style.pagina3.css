@@ -42,7 +42,9 @@ body{
 }
 img{
     border-radius: 23%;
-    width: 1%;
+    width: 37%;
+    text-align: center;
+    margin-left: 23%;
 }
 h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
