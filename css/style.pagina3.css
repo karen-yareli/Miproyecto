@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    margin-top: 39%;
+}
 
 
 body{
@@ -11,6 +14,7 @@ body{
     place-content: center;
     color: white;
     width: 100%;
+    margin-top: 23px;
     height:100vh;
 
     background-image: linear-gradient(
@@ -35,4 +39,26 @@ body{
     to{
         background-position: 100% 100%;
     }
+}
+img{
+    border-radius: 23%;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 37px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: rgb(255, 255, 255);
 }
