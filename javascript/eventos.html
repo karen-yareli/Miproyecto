@@ -4,62 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Evento</title>
-    <link rel="stylesheet" href="css/style.eventos.css">
+    <title>formularios js</title>
+
+    <link href="css/style.eventos.css" rel="stylesheet"/>
+
 </head>
 <body>
-    <h1 id="tituloH1">Permitanos saber su opinion</h1>
     <br>
-    <br>
-    <form id="formulario"> <br>
-        <br>
-        <br>
-        ¿Cuentenos que le parecieron nuestras pizzas?:  <br><br> <input  type="text" id="name"/> <br>
-        <br>
-        <br>
-        ¿Le gusto el ambiente de nuestra instalacion?:  <br> <br><input type="text" id="name"/> <br>
-        <br>
-        <br>
-        ¿Qué tal lo trataron los empleados?:   <br><br><input type="text" id="name"/>
-        <br>
-        <br>
-        ¿Qué le parecio el tiempo de espera?: <br> <br> <input type="text" id="name"/>
-        <br>
-        <br>
-        ¿Tuvo algun problema que le gustaria compartir?:   <br><br><input type="text" id="name"/>
-        <br>
-        <br>
+    <br><br>
+
+
+   
+       <h1> Que opinas de la pizza </h1>
        
-    </form>
-    <button onclick="mostrarValores()">Mostrar</button> 
-    <br>
-    <br>
-    <div id="valores"> </div> <br>
-    <br>
-    <script>
-        function mostrarValores(){
-            const formulario1 = document.forms['formulario']
-            let texto = ''
-            for(item of formulario1){
-                texto += item.value + ' '
-            }
-            console.log(texto) 
-            document.getElementById('valores').innerHTML = texto  
+       
+
+    </div>
+    <form id="formulario"><br>
+        <br>
+        <br>
+        <br>
+        
+        
+    Pon tu pizza favorita <br><br> <input type="text "  name="nombre" value=""/> <br>
+        <br>
+Recomieda una pizza <br> <br><input type="text" name="apellido" value=""/> <br> 
+<br>
+
+Que tanto te gustan las pizzas<br> <br><input type="text" name="apellido" value=""/><br> 
+<br>
+
+Tienes alguna pizza favorita<br> <br><input type="text" name="Edad" value=""/> <br> 
+<br>
+Donde es tu lugar favorito para comer pizza <br><br><input type="text" name="correo" value=""/><br> 
+<br>
 
 
-            
-
-        }
-        /*const form1 = document.getElementById("formulario")
-        form1.addEventListener("focus", (evento)=>{
-            evento.target.style.background="yellow"
-        }, true)
-        form1.addEventListener("blur", (evento)=>{
-            evento.target.style.background="white"
-        }, true)*/
-
-    </script>
+<div id="valores"></div>
 
 
+</form>
+<button onclick="mostrarvalores()">mostrar</button> 
+<br>
+<br>
+
+
+
+
+
+
+
+
+   <script>
+
+function mostrarvalores(){
+const f= document.forms['formulario']
+let texto = ''
+for(item of f){
+texto += item.value + '<br/><br/>'
+}
+console.log(texto)
+document.getElementById('valores').innerHTML = texto
+
+}
+
+
+
+
+</script>
+    
 </body>
 </html>
