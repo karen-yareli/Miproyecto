@@ -9,29 +9,33 @@
 </head>
 <body>
     <h1 id="tituloH1">Permitanos saber su opinion</h1>
-    <br/>
-    <br/>
-    <form id="formulario">
-        ¿Cuentenos que le parecieron nuestras pizzas?: <input type="text" id="name"/>
-        <br/>
-        <br/>
-        ¿Le gusto el ambiente de nuestra instalacion?: <input type="text" id="name"/>
-        <br/>
-        <br/>
-        ¿Qué tal lo trataron los empleados?: <input type="text" id="name"/>
-        <br/>
-        <br/>
-        ¿Qué le parecio el tiempo de espera?: <input type="text" id="name"/>
-        <br/>
-        <br/>
-        ¿Tuvo algun problema que le gustaria compartir?: <input type="text" id="name"/>
-        <br/>
-        <br/>
+    <br>
+    <br>
+    <form id="formulario"> <br>
+        <br>
+        <br>
+        ¿Cuentenos que le parecieron nuestras pizzas?:  <br><br> <input  type="text" id="name"/> <br>
+        <br>
+        <br>
+        ¿Le gusto el ambiente de nuestra instalacion?:  <br> <br><input type="text" id="name"/> <br>
+        <br>
+        <br>
+        ¿Qué tal lo trataron los empleados?:   <br><br><input type="text" id="name"/>
+        <br>
+        <br>
+        ¿Qué le parecio el tiempo de espera?: <br> <br> <input type="text" id="name"/>
+        <br>
+        <br>
+        ¿Tuvo algun problema que le gustaria compartir?:   <br><br><input type="text" id="name"/>
+        <br>
+        <br>
+       
     </form>
-    <button onclick="mostrarValores()">Mostrar</button>
-    <br/>
-    <br/>
-    <div id="valores"></div>
+    <button onclick="mostrarValores()">Mostrar</button> 
+    <br>
+    <br>
+    <div id="valores"> </div> <br>
+    <br>
     <script>
         function mostrarValores(){
             const formulario1 = document.forms['formulario']
@@ -39,8 +43,8 @@
             for(item of formulario1){
                 texto += item.value + ' '
             }
-            console.log(texto)
-            document.getElementById('valores').innerHTML = texto 
+            console.log(texto) 
+            document.getElementById('valores').innerHTML = texto  
 
 
             
