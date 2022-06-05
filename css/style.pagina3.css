@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 html{
-    margin-top: 39%;
+    margin-top: 43%;
 }
 
 
@@ -42,6 +42,7 @@ body{
 }
 img{
     border-radius: 23%;
+    width: 1%;
 }
 h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -61,4 +62,8 @@ p{
     font-size: 24px;
     text-align: center;
     color: rgb(255, 255, 255);
+}
+form{
+    text-align: center;
+    width: 100%;
 }
