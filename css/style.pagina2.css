@@ -1,3 +1,12 @@
+
+html{
+    Background-color: #ccd8e2;
+    Min-height: 100px;
+    Font-family: "helvética neve";
+    Background: url(im2.png), 
+    Linear-gradient(to left, #8d056f, #ffffff);
+    }
+
 *{
     margin: 0;
     padding: 0;
@@ -29,7 +38,6 @@ div {
     
     100% {
         transform: translateX(100%) translateY(100%);
-        background-image: crimson;
     }
 }
 
@@ -39,7 +47,6 @@ body{
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #fffb00;
+    color: #000000;
     text-align: left;
-    background-color: rgb(238, 95, 95);
 }
