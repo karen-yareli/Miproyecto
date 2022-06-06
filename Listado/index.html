@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport"content="width=device-widh,initial-scale=1.0"/>
+        <title>Pedidos a Domicilio</title>
+        <link href="css/style.css" rel="stylesheet"/>
+
+    </head>
+    <body  onload="MostrarDomicilio()">
+<div class='contenedor' id="encabezado">
+        <h1>Escribenos Tu Dirección</h1>
+</div>
+  
+</div>
+
+<div   class="contenedor"><br>
+<div class="elemento"><br>
+<ul id ="direcciones"><br>
+    <li>Miguel hidalgo Limas #103</li> 
+    <li>Santa isabel Acacias #2303</li>     
+    <li>Francisco villa cocos #345</li> 
+
+
+</ul>
+</div>
+
+</div>
+
+<div class="contenedor">
+    <div style="text-align: center;" > <br> <br>
+        <button style="cursor: pointer;" onclick="agregarDomicilios()"> + </button>
+       
+<form id="formulario">
+    <input   type="text"  id="nombre" placeholder="colonia"/> 
+    <input type="text"  id="calle" placeholder="lote"/>
+
+    <button type="reset"> Borrar </button>
+    
+</form>
+</div>
+
+<script src='javascrip/Pedidos.js'></script>
+<script src='javascrip/app.js'></script>
+</body>
+</html>
