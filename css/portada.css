@@ -138,10 +138,10 @@ header a:hover{
 .carta:first-child{
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,0.5),
+        rgba(246, 8, 8, 0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/front-end.jpg");
+    ,url("https://www.123rf.com/photo_65473592_different-pizza-s-closeup-in-collage.html");
 
 }
 
@@ -151,7 +151,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/full-stack.jpg");
+    ,url("https://www.123rf.com/photo_65473592_different-pizza-s-closeup-in-collage.htmlg");
 }
 
 .carta:nth-child(3){
@@ -160,7 +160,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/python.jpg");
+    ,url("https://www.123rf.com/photo_65473592_different-pizza-s-closeup-in-collage.html");
 
 }
 
