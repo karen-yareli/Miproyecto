@@ -1,0 +1,109 @@
+* {
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.limpiarEstilos::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    color: #555;
+    font-family: Open Sans;
+    font-size: 16px;
+    position: relative;
+    height: 100vh;
+    font-weight: 400;
+}
+
+.derecha { float: right; }
+.rojo { color: #ffffff !important; }
+.rojofocus:focus { border: 1px solid #02008a !important; }
+
+.cabecero {
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    border-radius: 20px;
+    color: #fff;
+    background: url(pngegg\ \(7\).png), #0c007a;
+    background: url(pngegg\ \(7\).png), -webkit-gradient(linear, right top, left top, from(#ffffff), to(#020464));
+    background: url(pngegg\ \(7\).png), linear-gradient(to left, #ffffff, #15014b)
+}
+
+.presupuesto {
+    position: absolute;
+    width: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.presupuesto_titulo{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.presupuesto_valor {
+    font-weight: 300;
+    font-size: 46px;
+    text-align: center;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+.presupuesto_ingreso,
+.presupuesto_egreso {
+    padding: 12px;
+    text-transform: uppercase;
+}
+
+.presupuesto_ingreso {
+    margin-bottom: 10px;
+    background-color: #020061;
+    border-radius: 110px;
+}
+
+.presupuesto_egreso {
+    background-color: #020061;
+    border-radius: 110px;
+}
+
+.presupuesto_ingreso--texto,
+.presupuesto_egreso--texto {
+    float: left;
+    font-size: 13px;
+    color: #fff;
+    margin-top: 2px;
+}
+
+.presupuesto_ingreso--valor,
+.presupuesto_egreso--valor {
+    letter-spacing: 2px;
+    float:  left;
+}
+
+.presupuesto_ingreso--porcentaje,
+.presupuesto_egreso--porcentaje {
+    float: left;
+    width: 34px;
+    font-size: 11px;
+    padding: 5px 0;
+    margin-left: 10px;
+}
+
+.presupuesto_egreso--porcentaje {
+    background-color: rgba(255, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 3px;
+}
