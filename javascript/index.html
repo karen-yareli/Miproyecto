@@ -1,91 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Historia de la pizza</title>
-    <link rel="stylesheet" href="css/style.index.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.index.css" />
+  </head>
+  <body>
     <style>
-        .azul{
-            color: rgb(88, 10, 161);
-        }
+      .azul {
+        color: rgb(88, 10, 161);
+      }
     </style>
-</body>
-    <h1 id="encabezado"  class="azul">¿Sabias en donde se origino la primera pizza?</h1><br>
+  </body>
+  <h1 id="encabezado" class="azul">
+    ¿Sabias en donde se origino la primera pizza?
+  </h1>
+  <br />
 
-    <p id="parrafo1"   class="azul">La historia de la pizza es mucho más antigua de lo que crees. En FRANATI, te explicamos su origen, quién es su inventor, 
-        cómo ha sido su evolución y mucha más información. Tal y como hoy la conocemos, la pizza la inventó el italiano Raffaele Esposito el año 1889, en la ciudad de Nápoles (Italia).</p> <br>
+  <p id="parrafo1" class="azul">
+    La historia de la pizza es mucho más antigua de lo que crees. En FRANATI, te
+    explicamos su origen, quién es su inventor, cómo ha sido su evolución y
+    mucha más información. Tal y como hoy la conocemos, la pizza la inventó el
+    italiano Raffaele Esposito el año 1889, en la ciudad de Nápoles (Italia).
+  </p>
+  <br />
 
-    <p id="parrafo2"  class="azul">Efectivamente, la primera pizza moderna la prepara en 1889 Raffaele Esposito, de la Pizzería di Pietro e Basta Cossi (actual Pizzeria Brandi) 
-        para honrar la visita de los reyes Humberto l y la reina Margherita de Saboya. La pizza servida a la reina tenía los colores de la bandera italiana el rojo del 
-        tomate, el verde de la albahaca y el blanco de la mozzarella. De ahí el origen de la pizza Margarita, que pasó a convertirse en algo más que el plato de los pobres, 
-        famosa en Italia y en todo el mundo.</p><br>
+  <p id="parrafo2" class="azul">
+    Efectivamente, la primera pizza moderna la prepara en 1889 Raffaele
+    Esposito, de la Pizzería di Pietro e Basta Cossi (actual Pizzeria Brandi)
+    para honrar la visita de los reyes Humberto l y la reina Margherita de
+    Saboya. La pizza servida a la reina tenía los colores de la bandera italiana
+    el rojo del tomate, el verde de la albahaca y el blanco de la mozzarella. De
+    ahí el origen de la pizza Margarita, que pasó a convertirse en algo más que
+    el plato de los pobres, famosa en Italia y en todo el mundo.
+  </p>
+  <br />
 
-        <h2 id="encabezado"  class="azul">Origen de la pizza</h2><br>
+  <h2 id="encabezado" class="azul">Origen de la pizza</h2>
+  <br />
 
-    <p id="parrafo3">La palabra pizza podría derivar de la expresión picea usada por los romanos para aludir al ennegrecimiento del pan calentado. Fueron los napolitanos quienes popularizaron 
-        por primera vez hace más de mil años las foccacia, tortas recubiertas de hierbas aromáticas y especias.</p><br>
+  <p id="parrafo3">
+    La palabra pizza podría derivar de la expresión picea usada por los romanos
+    para aludir al ennegrecimiento del pan calentado. Fueron los napolitanos
+    quienes popularizaron por primera vez hace más de mil años las foccacia,
+    tortas recubiertas de hierbas aromáticas y especias.
+  </p>
+  <br />
 
-    <p id="parrafo4">Faltaban algunos ingredientes básicos, y el primero enorigin  llegar durante el siglo XVI, desde la recién descubierta América fue el tomate. Cuando los napolitanos descubrieron que no era venenoso, lo añadieron a las foccacia.</p><br>
-    
-    <p id="parrafo5">Se cree que ya se obtenía queso de las búfalas, introducidas en la Campania italiana para trabajar en las zonas pantanosas en el siglo XII, pero no se obtuvieron cantidades suficientes hasta la segunda mitad del siglo XVIII</p><br>
+  <p id="parrafo4">
+    Faltaban algunos ingredientes básicos, y el primero enorigin llegar durante
+    el siglo XVI, desde la recién descubierta América fue el tomate. Cuando los
+    napolitanos descubrieron que no era venenoso, lo añadieron a las foccacia.
+  </p>
+  <br />
 
-    <script>
-            console.log('BIENVENIDOS A LA HISTORIA DE LA PIZZA')
-            const encabezadoh1 = document.getElementById('encabezado'  )     //envebidos, byid, innerhtml
-            const{innerHTML} = encabezadoh1
-            console.log(encabezadoh1)
-            console.log('inner usando el objeto: ' + encabezadoh1.innerHTML)
-            console.log('inner destructurado: ' + innerHTML)
+  <p id="parrafo5">
+    Se cree que ya se obtenía queso de las búfalas, introducidas en la Campania
+    italiana para trabajar en las zonas pantanosas en el siglo XII, pero no se
+    obtuvieron cantidades suficientes hasta la segunda mitad del siglo XVIII
+  </p>
+  <br />
 
-        console.log('-----------------------')
+  <script>
+    console.log("BIENVENIDOS A LA HISTORIA DE LA PIZZA");
+    const encabezadoh1 = document.getElementById("encabezado"); //envebidos, byid, innerhtml
+    const { innerHTML } = encabezadoh1;
+    console.log(encabezadoh1);
+    console.log("inner usando el objeto: " + encabezadoh1.innerHTML);
+    console.log("inner destructurado: " + innerHTML);
 
-        const parrafo1 = document.getElementById('parrafo1')
-        console.log('encanbezado: ' + encabezadoh1.innerHTML + 'y el parrado es' + parrafo1.innerHTML)   //strings templates
-        console.log(`encabezado: ${encabezadoh1.innerHTML} y el parrafo es ${parrafo1.innerHTML}`)
-        console.log(`encabezado: ${innerHTML}`) 
-        parrafo1.innerHTML += ' '
+    console.log("-----------------------");
 
-        console.log(`El valor es: ${parrafo1.innerHTML}`) 
-        console.log('-----------------------')
-        const parrafos = document.getElementsByTagName('p')                          //bytag
-        console.log(`numeros de parrafos: ${parrafos.length}`)
-        for(let i = 0; i < parrafos.length; i++){
-        console.log(`En el parrafo: ${i+1} el valor es: ${parrafos[i].innerHTML}`)
+    const parrafo1 = document.getElementById("parrafo1");
+    console.log(
+      "encanbezado: " +
+        encabezadoh1.innerHTML +
+        "y el parrado es" +
+        parrafo1.innerHTML
+    ); //strings templates
+    console.log(
+      `encabezado: ${encabezadoh1.innerHTML} y el parrafo es ${parrafo1.innerHTML}`
+    );
+    console.log(`encabezado: ${innerHTML}`);
+    parrafo1.innerHTML += " ";
 
-        } 
-        console.log('-----------------------')
- 
-        const elementsByTypeAndClass = document.querySelectorAll('p.azul')                         //query
-        for(item of elementsByTypeAndClass){
-        console.log(`valor del parrafo azul ${item.innerHTML}`)
-     
-        }
-    </script>
-        <br/>
-        <br/>
+    console.log(`El valor es: ${parrafo1.innerHTML}`);
+    console.log("-----------------------");
+    const parrafos = document.getElementsByTagName("p"); //bytag
+    console.log(`numeros de parrafos: ${parrafos.length}`);
+    for (let i = 0; i < parrafos.length; i++) {
+      console.log(
+        `En el parrafo: ${i + 1} el valor es: ${parrafos[i].innerHTML}`
+      );
+    }
+    console.log("-----------------------");
 
+    const elementsByTypeAndClass = document.querySelectorAll("p.azul"); //query
+    for (item of elementsByTypeAndClass) {
+      console.log(`valor del parrafo azul ${item.innerHTML}`);
+    }
+  </script>
+  <br />
+  <br />
 
-    <a href="https://www.youtube.com/watch?v=qLhroUktqfU"><img src="image/historiadelapizza.jpg"
-    alt="grafico del refresco"
-    width="450px"
-    height="400px"
-    title="historia de la pizza"/></a>
+  <a href="https://www.youtube.com/watch?v=qLhroUktqfU"
+    ><img
+      src="image/historiadelapizza.jpg"
+      alt="grafico del refresco"
+      width="450px"
+      height="400px"
+      title="historia de la pizza"
+  /></a>
 
-    <a href="https://www.youtube.com/watch?v=8H0NSGO2Usw"><img src="image/la Reina (2).jpg"
-    alt="grafico del refresco"
-    width="450px"
-    height="400px"
-    title="historia de la reina"/></a>
+  <a href="https://www.youtube.com/watch?v=8H0NSGO2Usw"
+    ><img
+      src="image/la Reina (2).jpg"
+      alt="grafico del refresco"
+      width="450px"
+      height="400px"
+      title="historia de la reina"
+  /></a>
 
-    <a href="https://www.youtube.com/watch?v=-OIeTu49IjA"><img src="image/Primerapizza.jpg"
-    alt="grafico del refresco"
-    width="450px"
-    height="400px"
-    title="foto de la pizza"/></a>
-    <br/>
-
+  <a href="https://www.youtube.com/watch?v=-OIeTu49IjA"
+    ><img
+      src="image/Primerapizza.jpg"
+      alt="grafico del refresco"
+      width="450px"
+      height="400px"
+      title="foto de la pizza"
+  /></a>
+  <br />
 </html>
