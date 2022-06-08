@@ -1,0 +1,68 @@
+<html>
+<head>
+<title>Pagina de eventos de Formularios</title>
+<script language="javascript">
+
+function form_submit() 
+{ 
+	var usuario=document.miForm.usuario.value; 
+	var nombre=document.miForm.nombre.value; 
+	var apellido=document.miForm.apellido.value; 
+	var texto; texto="Usuario: " + usuario + "\n"; 
+	texto+="Nombre: " + nombre + "\n"; 
+	texto+="Apellido: " + apellido + "\n"; 
+	texto+="Sexo: " + document.miForm.sexo.value; 
+	alert(texto); 
+} 
+function form_reset() 
+{ 
+	alert("Se hizo el reseteo del formulario"); 
+} 
+function form_change(A) 
+{ 
+	switch(A) 
+	{ 
+		case "uno": 
+			alert("Se modifico el campo usuario"); 
+			break; 
+		case "dos": 
+			alert(document.miForm.sexo.value); break; 
+	} 
+} 
+//-->
+</script>
+</head>
+<body>
+<form name="miForm" method="post" action="" onSubmit="form_submit()" onReset="form_reset()">
+<table border="0" cellpadding="0" cellspacing="2" width="400">
+<tr>
+<td width="50%"> Ingrese un usuario:</td>
+<td width="50%"><input type="text" name="usuario" id="usuario" value="" onChange="form_change('uno');"></td>
+</tr>
+<tr>
+<td> Ingrese el nombre:</td>
+<td><input type="text" name="nombre" id="nombre" value=""></td>
+</tr>
+<tr>
+<td> Ingrese el apellido:</td>
+<td><input type="text" name="apellido" id="apellido" value=""></td>
+</tr>
+<tr>
+<td> Selecciona el sexo:</td>
+<td>
+<select name="sexo" id="sexo" onChange="form_change('dos');">
+<option value="">--</option>
+<option value="M">Masculino</option>
+<option value="F">Femenino</option>
+</select>	
+</td>
+</tr>
+<tr><td> </td><td> </td></tr>
+<tr>
+<td align="right"><input type="submit" value="Subir"> </td>
+<td> <input type="reset" value="Resetear"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
