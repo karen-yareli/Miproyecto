@@ -33,10 +33,11 @@ body {
     padding-bottom: 100px;
     border-radius: 20px;
     color: #fff;
-    background: url(pngegg\ \(7\).png), #0c007a;
-    background: url(pngegg\ \(7\).png), -webkit-gradient(linear, right top, left top, from(#ffffff), to(#020464));
-    background: url(pngegg\ \(7\).png), linear-gradient(to left, #ffffff, #15014b)
+    background: url(lu.png), #fb0909;
+    background: url(lu.png), -webkit-gradient(linear, right top, left top, from(#ffffff), to(#ff1616));
+    background: url(lu.png), linear-gradient(to left, #ffffff, #fe1414);
 }
+
 
 .presupuesto {
     position: absolute;
