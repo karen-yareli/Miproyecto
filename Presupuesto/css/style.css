@@ -18,7 +18,7 @@
     }
     .derecha { float: right; }
     .rojo { color: #ffffff !important; }
-    .rojofocus:focus { border: 1px solid #02008a !important; }
+    .rojofocus:focus { border: 1px solid #f30707 !important; }
     .cabecero {
     height: 60vh;
     background-size: cover;
@@ -29,11 +29,11 @@
     padding-bottom: 100px;
     border-radius: 20px;
     color: #fff;
-    background: url(pngegg\ \(7\).png), #0c007a;
+    background: url(pngegg\ \(7\).png), #fd0202;
     background: url(pngegg\ \(7\).png), -webkit-gradient(linear, 
-    right top, left top, from(#ffffff), to(#020464));
-    background: url(pngegg\ \(7\).png), linear-gradient(to left, 
-    #ffffff, #15014b)
+    right top, left top, from(#ffffff), to(#f50303));
+    background: url(lu.png), linear-gradient(to left, 
+    #e8f807, #fa0404)
     }
     .presupuesto {
     position: absolute;
@@ -63,7 +63,7 @@
     }
     .presupuesto_ingreso {
     margin-bottom: 10px;
-    background-color: #020061;
+    background-color: #fad60a;
     border-radius: 110px;
     }
     .presupuesto_egreso {
@@ -106,7 +106,7 @@
     }
     .agregar_tipo {
     width: 55px;
-    border: 1px solid #0400db;
+    border: 1px solid #040353;
     height: 44px;
     font-size: 18px;
     color: inherit;
@@ -117,8 +117,8 @@
     }
     .agregar_descripcion,
     .agregar_valor {
-    border: 1px solid #0400db;
-    background-color: rgb(255, 255, 255);
+    border: 1px solid #1b1212;
+    background-color: rgb(255, 255, 255)    ;
     color: inherit;
     font-family: inherit;
     font-size: 14px;
@@ -133,7 +133,7 @@
     font-size: 35px;
     background: none;
     border: none;
-    color: #fa0000;
+    color: #070703;
     cursor: pointer;
     display: inline-block;
     vertical-align: middle;
@@ -170,8 +170,8 @@
     font-weight: 400;
     margin-bottom: 15px;
     padding-top: 20px;
-    -webkit-text-size-adjust: #0b025c;
-    -webkit-text-stroke: 1px rgb(0, 0, 100);
+    -webkit-text-size-adjust: #f50404;
+    -webkit-text-stroke: 1px rgb(252, 66, 9);
     font-size: 30px;
     }
     .ingreso_titulo { color: #18005a; }
@@ -181,8 +181,8 @@
     border-bottom: 4px solid #110346;
     margin: unset;
     }
-    .elemento:first-child { border-top: 11px solid #a70404; }
-    .elemento:nth-child(even) { background-color: #f7f7f7; }
+    .elemento:first-child { border-top: 11px solid #fa0808; }
+    .elemento:nth-child(even) { background-color: #ec0606; }
     .elemento_descripcion {
     float: left;
     }
@@ -195,7 +195,7 @@
     margin-left: 20px;
     transition: transform 0.3s;
     font-size: 11px;
-    background-color: #FFDAD9;
+    background-color: #080808;
     padding: 3px;
     border-radius: 3px;
     width: 45px;
@@ -208,7 +208,7 @@
     .egreso .elemento_valor,
     .egreso .elemento_porcentaje,
     .egreso .elemento_eliminar--btn {
-    color: #ff0000;
+    color: #0f0e0e;
     }
     .elemento_eliminar {
     float: left;
@@ -232,6 +232,6 @@
     h3{
     text-align:inherit;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color:rgb(255, 255, 255);
-    font-size: 20px;
-   }
+    color:rgb(245, 243, 243);
+    font-size: 30px;
+}
