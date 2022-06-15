@@ -2,28 +2,24 @@
     margin: 10;
     padding: 0;
     box-sizing: border-box;
-}
-
-.limpiarEstilos::after {
+    }
+    .limpiarEstilos::after {
     content: "";
     display: table;
     clear: both;
-}
-
-body {
+    }
+    body {
     color: #555;
     font-family: Open Sans;
     font-size: 16px;
     position: relative;
     height: 100vh;
     font-weight: 400;
-}
-
-.derecha { float: right; }
-.rojo { color: #ffffff !important; }
-.rojofocus:focus { border: 1px solid #02008a !important; }
-
-.cabecero {
+    }
+    .derecha { float: right; }
+    .rojo { color: #ffffff !important; }
+    .rojofocus:focus { border: 1px solid #02008a !important; }
+    .cabecero {
     height: 60vh;
     background-size: cover;
     background-position: center;
@@ -33,78 +29,209 @@ body {
     padding-bottom: 100px;
     border-radius: 20px;
     color: #fff;
-    background: url(lu.png), #fb0909;
-    background: url(lu.png), -webkit-gradient(linear, right top, left top, from(#ffffff), to(#ff1616));
-    background: url(lu.png), linear-gradient(to left, #ffffff, #fe1414);
-}
-
-
-.presupuesto {
+    background: url(pngegg\ \(7\).png), #0c007a;
+    background: url(pngegg\ \(7\).png), -webkit-gradient(linear, 
+    right top, left top, from(#ffffff), to(#020464));
+    background: url(pngegg\ \(7\).png), linear-gradient(to left, 
+    #ffffff, #15014b)
+    }
+    .presupuesto {
     position: absolute;
     width: 250px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
-}
-
-.presupuesto_titulo{
+    }
+    .presupuesto_titulo{
     font-size: 20px;
     text-align: center;
     margin-bottom: 10px;
     font-weight: 300;
-}
-
-.presupuesto_valor {
+    }
+    .presupuesto_valor {
     font-weight: 300;
     font-size: 46px;
     text-align: center;
     margin-bottom: 25px;
     letter-spacing: 2px;
-}
-
-.presupuesto_ingreso,
-.presupuesto_egreso {
+    }
+    .presupuesto_ingreso,
+    .presupuesto_egreso {
     padding: 12px;
     text-transform: uppercase;
-}
-
-.presupuesto_ingreso {
+    }
+    .presupuesto_ingreso {
     margin-bottom: 10px;
     background-color: #020061;
     border-radius: 110px;
-}
-
-.presupuesto_egreso {
+    }
+    .presupuesto_egreso {
     background-color: #020061;
     border-radius: 110px;
-}
-
-.presupuesto_ingreso--texto,
-.presupuesto_egreso--texto {
+    }
+    .presupuesto_ingreso--texto,
+    .presupuesto_egreso--texto {
     float: left;
     font-size: 13px;
     color: #fff;
     margin-top: 2px;
-}
-
-.presupuesto_ingreso--valor,
-.presupuesto_egreso--valor {
+    }
+    .presupuesto_ingreso--valor,
+    .presupuesto_egreso--valor {
     letter-spacing: 2px;
-    float:  left;
-}
-
-.presupuesto_ingreso--porcentaje,
-.presupuesto_egreso--porcentaje {
+    float: left;
+    }
+    .presupuesto_ingreso--porcentaje,
+    .presupuesto_egreso--porcentaje {
     float: left;
     width: 34px;
     font-size: 11px;
     padding: 5px 0;
     margin-left: 10px;
-}
-
-.presupuesto_egreso--porcentaje {
+    }
+    .presupuesto_egreso--porcentaje {
     background-color: rgba(255, 0, 0, 0.2);
     text-align: center;
     border-radius: 3px;
-}
+    }
+    .agregar {
+    padding: 14px;
+    border-bottom: 1px solid #ffffff;
+    background-color: -webkit-gradient #020061, #15014b, #ff0000
+    }
+    .agregar_contenedor {
+    margin: 9 auto;
+    text-align: center;
+    }
+    .agregar_tipo {
+    width: 55px;
+    border: 1px solid #0400db;
+    height: 44px;
+    font-size: 18px;
+    color: inherit;
+    background-color: rgb(255, 255, 255);
+    margin-right: 10px;
+    font-weight: 1300;
+    transition: border 1.3s;
+    }
+    .agregar_descripcion,
+    .agregar_valor {
+    border: 1px solid #0400db;
+    background-color: rgb(255, 255, 255);
+    color: inherit;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 12px 15px;
+    margin-right: 10px;
+    border-radius: 115px;
+    transition: border 0.3s;
+    }
+    .agregar_descripcion { width: 400px;}
+    .agregar_valor { width: 100px;}
+    .agregar_btn {
+    font-size: 35px;
+    background: none;
+    border: none;
+    color: #fa0000;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.1;
+    margin-left: 10px;
+    }
+    .agregar_btn:active { transform: translateX(2px); }
+    .agregar_tipo:focus,
+    .agregar_descripcion:focus,
+    .agregar_valor:focus {
+    outline: none;
+    border: 11px solid #4f28b9;
+    }
+    .agregar_btn:focus { outline: none; }
+    .contenedor {
+    width: 860px;
+    margin: 50px auto;
+    padding-top: 1px;
+    text-align: center;
+    }
+    .ingreso {
+    float: left;
+    width: 470px;
+    margin-right: 0px;
+    }
+    .egreso{
+    float: left;
+    width: 470px;
+    margin-right: 0px;
+    }
+    h2 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    padding-top: 20px;
+    -webkit-text-size-adjust: #0b025c;
+    -webkit-text-stroke: 1px rgb(0, 0, 100);
+    font-size: 30px;
+    }
+    .ingreso_titulo { color: #18005a; }
+    .egreso_titulo { color: #18005a; }
+    .elemento {
+    padding: 13px;
+    border-bottom: 4px solid #110346;
+    margin: unset;
+    }
+    .elemento:first-child { border-top: 11px solid #a70404; }
+    .elemento:nth-child(even) { background-color: #f7f7f7; }
+    .elemento_descripcion {
+    float: left;
+    }
+    .elemento_valor {
+    float: left;
+    transition: transform 0.3s;
+    }
+    .elemento_porcentaje {
+    float: left;
+    margin-left: 20px;
+    transition: transform 0.3s;
+    font-size: 11px;
+    background-color: #FFDAD9;
+    padding: 3px;
+    border-radius: 3px;
+    width: 45px;
+    text-align: center;
+    }
+    .ingreso .elemento_valor,
+    .ingreso .elemento_eliminar--btn {
+    color: #030e0d;
+    }
+    .egreso .elemento_valor,
+    .egreso .elemento_porcentaje,
+    .egreso .elemento_eliminar--btn {
+    color: #ff0000;
+    }
+    .elemento_eliminar {
+    float: left;
+    }
+    .elemento_eliminar--btn {
+    font-size: 22px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    display: none;
+    }
+    .elemento_eliminar--btn:focus { outline: none; }
+    .elemento_eliminar--btn:active { transform: translateY(2px); }
+    .elemento:hover .elemento_eliminar--btn { display: block; }
+    .elemento:hover .elemento_valor { transform: translateX(-20px); }
+    .elemento:hover .elemento__porcentaje { transform: translateX(-
+    20px); }
+    h3{
+    text-align:inherit;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+   }
