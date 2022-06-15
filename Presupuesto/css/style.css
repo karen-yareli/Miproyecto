@@ -173,18 +173,24 @@
     -webkit-text-size-adjust: #f50404;
     -webkit-text-stroke: 1px rgb(252, 66, 9);
     font-size: 30px;
+    text-align: center;
+    width: 136%;
     }
     .ingreso_titulo { color: #18005a; }
     .egreso_titulo { color: #18005a; }
     .elemento {
-    padding: 13px;
+    padding: 5px;
+    width: 155%;
     border-bottom: 4px solid #110346;
     margin: unset;
+    border-radius: 9%;
     }
     .elemento:first-child { border-top: 11px solid #fa0808; }
     .elemento:nth-child(even) { background-color: #ec0606; }
     .elemento_descripcion {
     float: left;
+    width: 21%;
+    
     }
     .elemento_valor {
     float: left;
@@ -226,7 +232,7 @@
     .elemento_eliminar--btn:focus { outline: none; }
     .elemento_eliminar--btn:active { transform: translateY(2px); }
     .elemento:hover .elemento_eliminar--btn { display: block; }
-    .elemento:hover .elemento_valor { transform: translateX(-20px); }
+    .elemento:hover .elemento_valor { transform: translateX(-120px); }
     .elemento:hover .elemento__porcentaje { transform: translateX(-
     20px); }
     h3{
