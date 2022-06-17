@@ -3,8 +3,8 @@ html {
   min-height: 100px;
   font-family: "helvética neve";
   text-align: justify;
-  Background: url(), 
-    Linear-gradient(to left, #ff5100, #ffffff);
+  Background: url(fondo.png), 
+    Linear-gradient(to left, #ff0400, #ffffff);
     
 }
 
